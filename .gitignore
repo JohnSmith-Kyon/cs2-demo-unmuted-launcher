@@ -1,0 +1,32 @@
+# Recordings and downloaded archives
+*.dem
+*.zip
+*.7z
+*.gz
+*.zst
+
+# Generated output and third-party binaries
+cache/
+diagnostics/
+reports/
+tools/
+work/
+downloads/
+*.exe
+*.dll
+*.log
+*.partial
+*.pending-*
+cs2_demo_unmuted_*.cfg
+
+# Local credentials and editor files
+.env
+.env.*
+*.pem
+*.key
+.vscode/
+.idea/
+*.tmp
+Thumbs.db
+Desktop.ini
+.DS_Store
